@@ -1,4 +1,4 @@
-# selnet_cookies.py
+# netscape_cookies.py
 def to_netscape_string(cookie_data):
     result = []
     for cookie in cookie_data:
