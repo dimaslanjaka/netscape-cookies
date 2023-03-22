@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as fh:
 
 setup(
     name="netscape-cookies",
-    version="0.1.0",
+    version="1.0.0",
     packages=find_packages(),
     author="R44CX",
     author_email="r44cx@proton.me",
