@@ -1,4 +1,9 @@
 from setuptools import setup, find_packages
+import os
+
+# Read the content of the README.md file
+with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as fh:
+    long_description = fh.read()
 
 setup(
     name="netscape-cookies",
@@ -7,7 +12,7 @@ setup(
     author="R44CX",
     author_email="r44cx@proton.me",
     description="Convert Cookies to Netscape format",
-    long_description="A simple package to convert cookies to Netscape format and save them to a file",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/r44cx/netscape-cookies",
     classifiers=[
