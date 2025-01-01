@@ -7,8 +7,9 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as fh:
 
 setup(
     name="netscape-cookies",
-    version="1.0.0",
+    version="1.0.1",
     packages=find_packages(),
+    install_requires=["selenium"],
     author="R44CX",
     author_email="r44cx@proton.me",
     description="Convert Cookies to Netscape format",
